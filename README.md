@@ -35,16 +35,29 @@ the Tkinter package for GUI. Follow the instructions on the following page,
 based on your OS (Windows, Mac, Linux), with the exception of Step #3 to 
 install python and the Tkinter package:  
 - http://www.greenteapress.com/thinkpython/swampy/install.html
+
 After intsalling python and the Tkinter package you must install the 
 BeautifulSoup library which allows web scraping functionalities. Follow the 
 instructions in the following link to acquire this library. 
 - https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python
+
 Once you have all of these things installed on your device, go on terminal, 
 navigate to the folder containing the patch_scraper.py file, and then type 
 in 'python patch_scraper.py' to run the program. A small desktop application
 should appear where you can begin scraping. 
 **NOTE: if you are using python version 3, you may have to use the command:
+  
   'python3 patch_scraper.py' INSTEAD
+
+***UPDATE***: If you are running a version of python that is newer than Python 3.4, 
+		calling the program using the command above will return an error as 
+   		BeautifulSoup is not recognized by later Python versions. Instead run the 
+   		following command: 
+   
+   'python3.4 patch_scraper.py' 
+   
+   *If you are running Python version 2 on your machine, you do not need to 
+    worry about this.
 ===========================================================================
 
 The creator of Simple Patch Scraper can be reached at: 
